@@ -21,13 +21,13 @@ export const Hero = () => {
         <div className="flex items-center gap-3 justify-center md:justify-start">
           <a
             href="#"
-            className="py-3 px-8 bg-gradient-to-r from-teal-400 to-blue-500 rounded-2xl text-lg font-semibold hover:from-blue-500 hover:to-teal-400 transition duration-700 shadow-sm"
+            className="py-3 px-8 bg-gradient-to-r from-teal-400 to-blue-500 rounded-2xl text-sm md:text-lg font-semibold hover:from-blue-500 hover:to-teal-400 transition duration-700 shadow-sm"
           >
             Contact Me
           </a>
           <a
             href="#"
-            className="py-3 px-8 bg-white/5 text-lg font-semibold rounded-2xl border border-white/10 backdrop-blur-xl hover:bg-white/10 transition duration-700 shadow-sm"
+            className="py-3 px-8 bg-white/5 text-sm md:text-lg font-semibold rounded-2xl border border-white/10 backdrop-blur-xl hover:bg-white/10 transition duration-700 shadow-sm"
           >
             My Projects
           </a>

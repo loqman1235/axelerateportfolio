@@ -34,7 +34,7 @@ const Services = () => {
     <div className="w-full px-5 md:px-10 pb-40">
       <h3 className="title">Services</h3>
       {/* Services Container */}
-      <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 relative">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 relative">
         {servicesDetails.map((service) => (
           <ServiceCard
             key={service.id}
