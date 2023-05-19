@@ -52,15 +52,15 @@ const Contact = () => {
               className="backdrop-blur-xl outline-none border border-white/10 bg-white/5 rounded-xl py-3 px-5"
             ></textarea>
           </div>
-          <div className="mb-4 w-3/4">
-            <button className="py-3 w-1/2 px-8 bg-gradient-to-r from-teal-400 to-blue-500 rounded-2xl text-lg font-semibold hover:from-blue-500 hover:to-teal-400 transition duration-700 shadow-sm flex items-center justify-center gap-1">
+          <div className="mb-4 w-full md:w-3/4">
+            <button className="py-3 w-full md:w-1/2 px-8 bg-gradient-to-r from-teal-400 to-blue-500 rounded-2xl text-lg font-semibold hover:from-blue-500 hover:to-teal-400 transition duration-700 shadow-sm flex items-center justify-center gap-1">
               Message Me
             </button>
           </div>
         </form>
-        <div className="">
+        <div className="flex md:block flex-col md:flex-row items-center text-center md:items-start md:text-left">
           <h5 className="text-lg font-semibold mb-5">Connect with me</h5>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 items-center md:items-start">
             <p className="text-[#B3C7D6] flex items-center gap-4">
               <AiOutlinePhone size={20} /> +1 (555) 123-4567
             </p>

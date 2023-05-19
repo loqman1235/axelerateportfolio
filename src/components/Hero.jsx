@@ -3,7 +3,7 @@ import heroIllustration from "../assets/hero_illustration.svg";
 
 export const Hero = () => {
   return (
-    <div className="px-10 flex items-center md:justify-between justify-center pb-40">
+    <div className="px-10 flex flex-col items-center md:justify-between justify-center pb-40 gap-10">
       {/* Text */}
       <div className="md:w-1/2 text-center md:text-left">
         <h1 className="font-bold text-4xl md:text-5xl tracking-tight md:leading-[57.6px] mb-4">
@@ -34,7 +34,7 @@ export const Hero = () => {
         </div>
       </div>
       {/* Illustration */}
-      <div className="hidden md:block">
+      <div className="md:block">
         <img
           className="select-none pointer-events-none object-contain"
           src={heroIllustration}
